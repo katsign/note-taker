@@ -2,7 +2,7 @@ const fs = require('fs');
 
 // Accesses JSON route
 module.exports = (app) => {
-app.get('api/notes', (req, res) => {
+app.get('/api/notes', (req, res) => {
     fs.readFile('./db/db.json', (err, data) => {
         if (err) throw err;
         dbData = JSON.parse(data);
