@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-// Accesses JSON to display existing notes
+// Accesses JSON route
 module.exports = (app) => {
 app.get('api/notes', (req, res) => {
     fs.readFile('./db/db.json', (err, data) => {
@@ -32,7 +32,7 @@ app.post('/api/notes', (req, res) => {
             if (err) throw err;
         });
     });
-    res.send('Note added.');
+    res.status(204).send();
 });
 
 };
