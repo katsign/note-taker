@@ -32,7 +32,7 @@ app.post('/api/notes', (req, res) => {
             if (err) throw err;
         });
     });
-    res.status(204).send();
+    res.status(200).send();
 });
 
 };
