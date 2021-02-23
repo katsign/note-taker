@@ -15,6 +15,14 @@ html, body {
   cursor: pointer;
 }
 
+.bg-dark {
+  background-color:thistle !important;
+}
+
+.jumbotron {
+  background-color:linen !important;
+}
+
 .note-textarea, .note-title {
   color: #000000;
   width: 100%;
