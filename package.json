@@ -1,13 +1,14 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "This note-taking app uses an Express server to store input data.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"server.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "katsign",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.16.4"
   }
