@@ -14,7 +14,7 @@
 - [Questions](#questions)
 
 ## *Description*
-Note Taker uses an Express server to store input user data in a database and display it on a landing page. Simply put — you can write and display notes! The deployed site can be seen [here](path).
+Note Taker uses an Express server to store input user data in a database and display it on a landing page. Simply put — you can write and display notes! The deployed site can be seen [on Heroku](https://katsign-note-taker.herokuapp.com/). :round_pushpin:
 
 ## *Installation*
 ### Navigate into the repository folder on your local machine and open the built-in terminal. You will need Node.js installed to run this application.
@@ -25,9 +25,9 @@ Note Taker uses an Express server to store input user data in a database and dis
 
 ## *Usage*
 ### Note Taker allows you to view both the posted input data as listed 'Notes' and those actual JSON objects in the database at different endpoints in the app.
-- From the homepage, when you click `Get Started` you are taken to the `/notes` endpoint. This displays the two test notes already saved in the database and an interface to begin typing a new `Note Title` and `Note Text.`
+- From the homepage, when you click `Get Started` you are taken to the `/notes` endpoint. This displays the two test notes already saved in the database and an interface to begin typing a new `Note Title` and `Note Text`.
 - Write your new note and click the save icon that appears up top to post to the database. This will also append to the list of notes on the left.
-- To view the JSON objects, type this path into your browser while running the local server: `http://localhost:3000/api/notes`
+- To view the JSON objects, type this path into your browser while running the local server: `http://localhost:3000/api/notes`.
 
 ## *Screenshots*
 ![Demo of Note Taker Homepage](./public/assets/screenshots/home.png)
