@@ -10,7 +10,6 @@
 - [Usage](#usage)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
-- [Tests](#tests)
 - [Questions](#questions)
 
 ## *Description*
@@ -21,7 +20,6 @@ Note Taker uses an Express server to store input user data in a database and dis
 - Type `npm i` on the command line to install Express.
 - Type `node server.js` to spin up the local server.
 - Then, type `npm run watch` and navigate to `http://localhost:3000/` in your browser to see the application in action.
-
 
 ## *Usage*
 ### Note Taker allows you to view both the posted input data as listed 'Notes' and those actual JSON objects in the database at different endpoints in the app.
@@ -36,10 +34,6 @@ Note Taker uses an Express server to store input user data in a database and dis
 
 ## *Contributing*
 Contributing is welcome, raise issues and submit through pull requests.
-
-## *Tests*
-
-n/a
 
 ## *Questions?*
 - My Profile: [katsign](https://github.com/katsign)
