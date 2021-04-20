@@ -1,5 +1,10 @@
+<div align="center">
+
 # Express.js Note Taker :pencil2:
-![GitHub license](https://img.shields.io/badge/License-MIT-orange)
+![GitHub license](https://img.shields.io/badge/License-MIT-faf0e6)
+
+#### 📍 [View Deployment on Heroku](https://katsign-note-taker.herokuapp.com/) 📍
+</div>
 
 ### This note-taking app uses an Express server to store input data.
 
@@ -10,10 +15,10 @@
 - [Usage](#usage)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
-- [Questions](#questions)
+- [Contact](#contact)
 
 ## *Description*
-Note Taker uses an Express server to store input user data in a database and display it on a landing page. Simply put — you can write and display notes! The deployed site can be seen [on Heroku](https://katsign-note-taker.herokuapp.com/). :round_pushpin:
+Note Taker uses an Express server to store input user data in a database and display it on a landing page. Simply put — you can write and display notes!
 
 ## *Installation*
 ### Navigate into the repository folder on your local machine and open the built-in terminal. You will need Node.js installed to run this application.
@@ -35,8 +40,10 @@ Note Taker uses an Express server to store input user data in a database and dis
 ## *Contributing*
 Contributing is welcome, raise issues and submit through pull requests.
 
-## *Questions?*
-- My Profile: [katsign](https://github.com/katsign)
+## *Contact*
+🔗 Links in Bio @[katsign](https://github.com/katsign)
+
+![Email Badge](https://img.shields.io/badge/Email%20Me-mailtokatsign%40gmail.com-d8bfd8)
 
 ---
 This project is MIT licensed. &copy; 2021
